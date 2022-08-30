@@ -1,0 +1,26 @@
+{
+  "name": "transcriptvideo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "transcript.js",
+  "scripts": {
+    "start": "node transcript.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.628.0",
+    "dynamodb": "^1.2.1",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "got": "^11.8.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "s3urls": "^1.5.2",
+    "moment": "^2.24.0",
+    "util": "^0.12.2",
+    "ffprobe-static": "^3.0.0",
+    "lodash": "^4.17.15",
+    "any-shell-escape": "^0.1.1"
+  }
+}
