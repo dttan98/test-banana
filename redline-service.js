@@ -157,7 +157,7 @@ async function redlineTranscode() {
             await reportErr(new Error("Create transocde job fail."));
         }
     } catch (err) {
-        console.log('FFmpeg transcode error: ', err);
+        console.log('Redline transcode error: ', err);
         await reportErr(err);
     }
 }
